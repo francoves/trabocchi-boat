@@ -44,8 +44,8 @@
     const pad = () => {
       const w = el.clientWidth || 900;
       return w > 760
-        ? { top: 36, bottom: 36, left: Math.min(Math.round(w * 0.40), 460), right: 30 }
-        : { top: 30, bottom: 175, left: 22, right: 22 };
+        ? { top: 36, bottom: 36, left: Math.min(Math.round(w * 0.48), 560), right: 28 }
+        : { top: 18, bottom: 235, left: 22, right: 22 };
     };
 
     const map = new maplibregl.Map({

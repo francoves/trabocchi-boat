@@ -222,10 +222,11 @@ section{position:relative}
 .intromap-cap{display:inline-flex;align-items:center;gap:.5rem;margin-top:1.6rem;font-weight:700;font-size:.78rem;color:var(--teal-d);text-transform:uppercase;letter-spacing:.1em}
 .intromap-dot{width:9px;height:9px;border-radius:50%;background:var(--coral);flex:0 0 auto;box-shadow:0 0 0 4px rgba(255,122,89,.2)}
 @media(max-width:760px){
-  .intromap{align-items:flex-end;min-height:88svh}
-  .intromap-scrim{background:linear-gradient(180deg,rgba(255,255,255,0) 4%,rgba(255,255,255,.5) 32%,rgba(255,255,255,.97) 64%)}
-  .intromap-content{padding-bottom:2.4rem}
-  .intromap-content p{font-size:.98rem}
+  .intromap{align-items:flex-end;min-height:82svh}
+  .intromap-scrim{background:linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 46%,rgba(255,255,255,.6) 62%,rgba(255,255,255,.98) 80%)}
+  .intromap-content{padding:1.3rem 1.3rem 1.9rem}
+  .intromap-content h2{margin:.2rem 0 .8rem}
+  .intromap-content p{font-size:.96rem;margin-top:.7rem}
 }
 
 /* ---------- depart ---------- */

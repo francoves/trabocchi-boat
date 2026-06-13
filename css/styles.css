@@ -219,9 +219,14 @@ section{position:relative}
 .intromap-content{position:relative;z-index:2;max-width:600px;padding:clamp(2.5rem,6vw,4rem) clamp(1.3rem,5vw,3rem)}
 .intromap-content h2{margin:.4rem 0 1rem}
 .claim-blue{color:var(--navy);font-weight:700}
+.claim-l{display:block;white-space:nowrap}
+.intromap-content .claim{font-size:clamp(1.25rem,5.1vw,2.35rem);line-height:1.16;letter-spacing:-.01em;margin:.2rem 0 1rem}
 .intromap-content p{color:var(--ink-soft);font-size:1.04rem;margin-top:.9rem;max-width:44ch}
-.intromap-cap{display:inline-flex;align-items:center;gap:.5rem;margin-top:1.6rem;font-weight:700;font-size:.78rem;color:var(--teal-d);text-transform:uppercase;letter-spacing:.1em}
-.intromap-dot{width:9px;height:9px;border-radius:50%;background:var(--coral);flex:0 0 auto;box-shadow:0 0 0 4px rgba(255,122,89,.2)}
+.intromap-cap{display:flex;align-items:center;flex-wrap:wrap;gap:.55rem .7rem;margin-top:1.8rem}
+.cap-dot{width:9px;height:9px;border-radius:50%;background:var(--coral);flex:0 0 auto;box-shadow:0 0 0 4px rgba(255,122,89,.18)}
+.cap-kicker{font-size:.66rem;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--coral)}
+.cap-rule{flex:0 0 22px;height:1px;background:var(--sky-line)}
+.cap-text{font-family:"Bricolage Grotesque","Manrope",serif;font-size:1.06rem;font-weight:500;color:var(--navy)}
 @media(max-width:760px){
   .intromap{align-items:flex-end;min-height:82svh}
   .intromap-scrim{background:linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 46%,rgba(255,255,255,.6) 62%,rgba(255,255,255,.98) 80%)}
